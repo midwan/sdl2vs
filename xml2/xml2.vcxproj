@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM64">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM64">
+      <Configuration>Release</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x86">
+      <Configuration>Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x86">
+      <Configuration>Release</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\c14n.c" />
+    <ClCompile Include="src\catalog.c" />
+    <ClCompile Include="src\chvalid.c" />
+    <ClCompile Include="src\debugXML.c" />
+    <ClCompile Include="src\dict.c" />
+    <ClCompile Include="src\DOCBparser.c" />
+    <ClCompile Include="src\encoding.c" />
+    <ClCompile Include="src\entities.c" />
+    <ClCompile Include="src\error.c" />
+    <ClCompile Include="src\globals.c" />
+    <ClCompile Include="src\hash.c" />
+    <ClCompile Include="src\HTMLparser.c" />
+    <ClCompile Include="src\HTMLtree.c" />
+    <ClCompile Include="src\legacy.c" />
+    <ClCompile Include="src\list.c" />
+    <ClCompile Include="src\nanoftp.c" />
+    <ClCompile Include="src\nanohttp.c" />
+    <ClCompile Include="src\parser.c" />
+    <ClCompile Include="src\parserInternals.c" />
+    <ClCompile Include="src\pattern.c" />
+    <ClCompile Include="src\relaxng.c" />
+    <ClCompile Include="src\SAX.c" />
+    <ClCompile Include="src\SAX2.c" />
+    <ClCompile Include="src\schematron.c" />
+    <ClCompile Include="src\threads.c" />
+    <ClCompile Include="src\tree.c" />
+    <ClCompile Include="src\trio.c" />
+    <ClCompile Include="src\trionan.c" />
+    <ClCompile Include="src\triostr.c" />
+    <ClCompile Include="src\uri.c" />
+    <ClCompile Include="src\valid.c" />
+    <ClCompile Include="src\xinclude.c" />
+    <ClCompile Include="src\xlink.c" />
+    <ClCompile Include="src\xmlIO.c" />
+    <ClCompile Include="src\xmlmemory.c" />
+    <ClCompile Include="src\xmlmodule.c" />
+    <ClCompile Include="src\xmlreader.c" />
+    <ClCompile Include="src\xmlregexp.c" />
+    <ClCompile Include="src\xmlsave.c" />
+    <ClCompile Include="src\xmlschemas.c" />
+    <ClCompile Include="src\xmlschemastypes.c" />
+    <ClCompile Include="src\xmlstring.c" />
+    <ClCompile Include="src\xmlunicode.c" />
+    <ClCompile Include="src\xmlwriter.c" />
+    <ClCompile Include="src\xpath.c" />
+    <ClCompile Include="src\xpointer.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\libxml\c14n.h" />
+    <ClInclude Include="include\libxml\catalog.h" />
+    <ClInclude Include="include\libxml\chvalid.h" />
+    <ClInclude Include="include\libxml\debugXML.h" />
+    <ClInclude Include="include\libxml\dict.h" />
+    <ClInclude Include="include\libxml\DOCBparser.h" />
+    <ClInclude Include="include\libxml\encoding.h" />
+    <ClInclude Include="include\libxml\entities.h" />
+    <ClInclude Include="include\libxml\globals.h" />
+    <ClInclude Include="include\libxml\hash.h" />
+    <ClInclude Include="include\libxml\HTMLparser.h" />
+    <ClInclude Include="include\libxml\HTMLtree.h" />
+    <ClInclude Include="include\libxml\list.h" />
+    <ClInclude Include="include\libxml\nanoftp.h" />
+    <ClInclude Include="include\libxml\nanohttp.h" />
+    <ClInclude Include="include\libxml\parser.h" />
+    <ClInclude Include="include\libxml\parserInternals.h" />
+    <ClInclude Include="include\libxml\pattern.h" />
+    <ClInclude Include="include\libxml\relaxng.h" />
+    <ClInclude Include="include\libxml\SAX.h" />
+    <ClInclude Include="include\libxml\SAX2.h" />
+    <ClInclude Include="include\libxml\schemasInternals.h" />
+    <ClInclude Include="include\libxml\schematron.h" />
+    <ClInclude Include="include\libxml\threads.h" />
+    <ClInclude Include="include\libxml\tree.h" />
+    <ClInclude Include="include\libxml\uri.h" />
+    <ClInclude Include="include\libxml\valid.h" />
+    <ClInclude Include="include\libxml\xinclude.h" />
+    <ClInclude Include="include\libxml\xlink.h" />
+    <ClInclude Include="include\libxml\xmlautomata.h" />
+    <ClInclude Include="include\libxml\xmlerror.h" />
+    <ClInclude Include="include\libxml\xmlexports.h" />
+    <ClInclude Include="include\libxml\xmlIO.h" />
+    <ClInclude Include="include\libxml\xmlmemory.h" />
+    <ClInclude Include="include\libxml\xmlmodule.h" />
+    <ClInclude Include="include\libxml\xmlreader.h" />
+    <ClInclude Include="include\libxml\xmlregexp.h" />
+    <ClInclude Include="include\libxml\xmlsave.h" />
+    <ClInclude Include="include\libxml\xmlschemas.h" />
+    <ClInclude Include="include\libxml\xmlschemastypes.h" />
+    <ClInclude Include="include\libxml\xmlstring.h" />
+    <ClInclude Include="include\libxml\xmlunicode.h" />
+    <ClInclude Include="include\libxml\xmlversion.h" />
+    <ClInclude Include="include\libxml\xmlwriter.h" />
+    <ClInclude Include="include\libxml\xpath.h" />
+    <ClInclude Include="include\libxml\xpathInternals.h" />
+    <ClInclude Include="include\libxml\xpointer.h" />
+    <ClInclude Include="include\win32config.h" />
+    <ClInclude Include="include\wsockcompat.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{cbe97bbd-4ba5-4155-a3a9-277c6411255d}</ProjectGuid>
+    <Keyword>Android</Keyword>
+    <RootNamespace>xml2</RootNamespace>
+    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+    <ApplicationType>Android</ApplicationType>
+    <ApplicationTypeRevision>3.0</ApplicationTypeRevision>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>Clang_5_0</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>Clang_5_0</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>Clang_5_0</PlatformToolset>
+    <AndroidAPILevel>android-28</AndroidAPILevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>Clang_5_0</PlatformToolset>
+    <AndroidAPILevel>android-28</AndroidAPILevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>Clang_5_0</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>Clang_5_0</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>Clang_5_0</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>Clang_5_0</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>src;$(Sysroot)\usr\include;$(StlIncludeDirectories)%(AdditionalIncludeDirectories);include</AdditionalIncludeDirectories>
+      <EnableNeonCodegen>true</EnableNeonCodegen>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories);$(ToolchainPrebuiltPath)\lib\gcc\$(ToolchainName)\$(ToolchainFullVersionName)\$(PlatformShortName);$(StlLibraryPath);$(SolutionDir)$(Platform)\$(Configuration)</AdditionalLibraryDirectories>
+      <LibraryDependencies>$(StlLibraryName);%(LibraryDependencies);m;z;dl</LibraryDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>src;$(Sysroot)\usr\include;$(StlIncludeDirectories)%(AdditionalIncludeDirectories);include</AdditionalIncludeDirectories>
+      <EnableNeonCodegen>true</EnableNeonCodegen>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories);$(ToolchainPrebuiltPath)\lib\gcc\$(ToolchainName)\$(ToolchainFullVersionName)\$(PlatformShortName);$(StlLibraryPath);$(SolutionDir)$(Platform)\$(Configuration)</AdditionalLibraryDirectories>
+      <LibraryDependencies>$(StlLibraryName);%(LibraryDependencies);m;z;dl</LibraryDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

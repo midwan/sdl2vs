@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM64">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM64">
+      <Configuration>Release</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x86">
+      <Configuration>Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x86">
+      <Configuration>Release</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\check_neon.S" />
+    <None Include="src\dct36_neon.S" />
+    <None Include="src\dct36_neon64.S" />
+    <None Include="src\dct64_neon.S" />
+    <None Include="src\dct64_neon64.S" />
+    <None Include="src\dct64_neon64_float.S" />
+    <None Include="src\dct64_neon_float.S" />
+    <None Include="src\getcpuflags.S" />
+    <None Include="src\synth_arm.S" />
+    <None Include="src\synth_arm_accurate.S" />
+    <None Include="src\synth_neon.S" />
+    <None Include="src\synth_neon64.S" />
+    <None Include="src\synth_neon64_accurate.S" />
+    <None Include="src\synth_neon64_float.S" />
+    <None Include="src\synth_neon64_s32.S" />
+    <None Include="src\synth_neon_accurate.S" />
+    <None Include="src\synth_neon_float.S" />
+    <None Include="src\synth_neon_s32.S" />
+    <None Include="src\synth_stereo_neon.S" />
+    <None Include="src\synth_stereo_neon64.S" />
+    <None Include="src\synth_stereo_neon64_accurate.S" />
+    <None Include="src\synth_stereo_neon64_float.S" />
+    <None Include="src\synth_stereo_neon64_s32.S" />
+    <None Include="src\synth_stereo_neon_accurate.S" />
+    <None Include="src\synth_stereo_neon_float.S" />
+    <None Include="src\synth_stereo_neon_s32.S" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\compat.c" />
+    <ClCompile Include="src\compat_str.c" />
+    <ClCompile Include="src\dct64.c" />
+    <ClCompile Include="src\dither.c" />
+    <ClCompile Include="src\equalizer.c" />
+    <ClCompile Include="src\feature.c" />
+    <ClCompile Include="src\format.c" />
+    <ClCompile Include="src\frame.c" />
+    <ClCompile Include="src\getcpuflags_arm.c" />
+    <ClCompile Include="src\icy.c" />
+    <ClCompile Include="src\icy2utf8.c" />
+    <ClCompile Include="src\id3.c" />
+    <ClCompile Include="src\index.c" />
+    <ClCompile Include="src\layer1.c" />
+    <ClCompile Include="src\layer2.c" />
+    <ClCompile Include="src\layer3.c" />
+    <ClCompile Include="src\lfs_alias.c" />
+    <ClCompile Include="src\libmpg123.c" />
+    <ClCompile Include="src\ntom.c" />
+    <ClCompile Include="src\optimize.c" />
+    <ClCompile Include="src\parse.c" />
+    <ClCompile Include="src\readers.c" />
+    <ClCompile Include="src\stringbuf.c" />
+    <ClCompile Include="src\synth.c" />
+    <ClCompile Include="src\synth_8bit.c" />
+    <ClCompile Include="src\synth_real.c" />
+    <ClCompile Include="src\synth_s32.c" />
+    <ClCompile Include="src\tabinit.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\abi_align.h" />
+    <ClInclude Include="src\compat.h" />
+    <ClInclude Include="src\config.h" />
+    <ClInclude Include="src\debug.h" />
+    <ClInclude Include="src\decode.h" />
+    <ClInclude Include="src\dither.h" />
+    <ClInclude Include="src\dither_impl.h" />
+    <ClInclude Include="src\fmt123.h" />
+    <ClInclude Include="src\frame.h" />
+    <ClInclude Include="src\gapless.h" />
+    <ClInclude Include="src\getbits.h" />
+    <ClInclude Include="src\getcpuflags.h" />
+    <ClInclude Include="src\huffman.h" />
+    <ClInclude Include="src\icy.h" />
+    <ClInclude Include="src\icy2utf8.h" />
+    <ClInclude Include="src\id3.h" />
+    <ClInclude Include="src\index.h" />
+    <ClInclude Include="src\intsym.h" />
+    <ClInclude Include="src\l12_integer_tables.h" />
+    <ClInclude Include="src\l2tables.h" />
+    <ClInclude Include="src\l3_integer_tables.h" />
+    <ClInclude Include="src\mangle.h" />
+    <ClInclude Include="src\mpeghead.h" />
+    <ClInclude Include="src\mpg123.h" />
+    <ClInclude Include="src\mpg123lib_intern.h" />
+    <ClInclude Include="src\newhuffman.h" />
+    <ClInclude Include="src\optimize.h" />
+    <ClInclude Include="src\parse.h" />
+    <ClInclude Include="src\reader.h" />
+    <ClInclude Include="src\sample.h" />
+    <ClInclude Include="src\swap_bytes_impl.h" />
+    <ClInclude Include="src\synth.h" />
+    <ClInclude Include="src\synths.h" />
+    <ClInclude Include="src\synth_8bit.h" />
+    <ClInclude Include="src\synth_mono.h" />
+    <ClInclude Include="src\synth_ntom.h" />
+    <ClInclude Include="src\true.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{95e5082b-3ff2-469f-ac6d-2e77bc881a02}</ProjectGuid>
+    <Keyword>Android</Keyword>
+    <RootNamespace>mpg123</RootNamespace>
+    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+    <ApplicationType>Android</ApplicationType>
+    <ApplicationTypeRevision>3.0</ApplicationTypeRevision>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>Clang_5_0</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>Clang_5_0</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>Clang_5_0</PlatformToolset>
+    <AndroidAPILevel>android-28</AndroidAPILevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>Clang_5_0</PlatformToolset>
+    <AndroidAPILevel>android-28</AndroidAPILevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>Clang_5_0</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>Clang_5_0</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>Clang_5_0</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>Clang_5_0</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(Sysroot)\usr\include;$(StlIncludeDirectories)%(AdditionalIncludeDirectories);src</AdditionalIncludeDirectories>
+      <EnableNeonCodegen>true</EnableNeonCodegen>
+      <PreprocessorDefinitions>__ANDROID_API__=$(AndroidAPILevelNumber);linux;FT2_BUILD_LIBRARY=1;PHYSFS_NO_CDROM_SUPPORT=1;AL_ALEXT_PROTOTYPES=1;HAVE_GCC_DESTRUCTOR=1;REAL_IS_FLOAT;OPT_NEON</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories);$(ToolchainPrebuiltPath)\lib\gcc\$(ToolchainName)\$(ToolchainFullVersionName)\$(PlatformShortName);$(StlLibraryPath);$(SolutionDir)$(Platform)\$(Configuration)</AdditionalLibraryDirectories>
+      <LibraryDependencies>$(StlLibraryName);%(LibraryDependencies);m;dl</LibraryDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(Sysroot)\usr\include;$(StlIncludeDirectories)%(AdditionalIncludeDirectories);src</AdditionalIncludeDirectories>
+      <EnableNeonCodegen>true</EnableNeonCodegen>
+      <PreprocessorDefinitions>__ANDROID_API__=$(AndroidAPILevelNumber);linux;FT2_BUILD_LIBRARY=1;PHYSFS_NO_CDROM_SUPPORT=1;AL_ALEXT_PROTOTYPES=1;HAVE_GCC_DESTRUCTOR=1;REAL_IS_FLOAT;OPT_NEON</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories);$(ToolchainPrebuiltPath)\lib\gcc\$(ToolchainName)\$(ToolchainFullVersionName)\$(PlatformShortName);$(StlLibraryPath);$(SolutionDir)$(Platform)\$(Configuration)</AdditionalLibraryDirectories>
+      <LibraryDependencies>$(StlLibraryName);%(LibraryDependencies);m;dl</LibraryDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{c9abb0da-9a5e-4ec1-a3fa-5fa4c2d648fe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\check_neon.S">
+      <Filter>src</Filter>
+    </None>
+    <None Include="src\dct36_neon.S">
+      <Filter>src</Filter>
+    </None>
+    <None Include="src\dct36_neon64.S">
+      <Filter>src</Filter>
+    </None>
+    <None Include="src\dct64_neon.S">
+      <Filter>src</Filter>
+    </None>
+    <None Include="src\dct64_neon_float.S">
+      <Filter>src</Filter>
+    </None>
+    <None Include="src\dct64_neon64.S">
+      <Filter>src</Filter>
+    </None>
+    <None Include="src\dct64_neon64_float.S">
+      <Filter>src</Filter>
+    </None>
+    <None Include="src\getcpuflags.S">
+      <Filter>src</Filter>
+    </None>
+    <None Include="src\synth_arm.S">
+      <Filter>src</Filter>
+    </None>
+    <None Include="src\synth_arm_accurate.S">
+      <Filter>src</Filter>
+    </None>
+    <None Include="src\synth_neon.S">
+      <Filter>src</Filter>
+    </None>
+    <None Include="src\synth_neon_accurate.S">
+      <Filter>src</Filter>
+    </None>
+    <None Include="src\synth_neon_float.S">
+      <Filter>src</Filter>
+    </None>
+    <None Include="src\synth_neon_s32.S">
+      <Filter>src</Filter>
+    </None>
+    <None Include="src\synth_neon64.S">
+      <Filter>src</Filter>
+    </None>
+    <None Include="src\synth_neon64_accurate.S">
+      <Filter>src</Filter>
+    </None>
+    <None Include="src\synth_neon64_float.S">
+      <Filter>src</Filter>
+    </None>
+    <None Include="src\synth_neon64_s32.S">
+      <Filter>src</Filter>
+    </None>
+    <None Include="src\synth_stereo_neon.S">
+      <Filter>src</Filter>
+    </None>
+    <None Include="src\synth_stereo_neon_accurate.S">
+      <Filter>src</Filter>
+    </None>
+    <None Include="src\synth_stereo_neon_float.S">
+      <Filter>src</Filter>
+    </None>
+    <None Include="src\synth_stereo_neon_s32.S">
+      <Filter>src</Filter>
+    </None>
+    <None Include="src\synth_stereo_neon64.S">
+      <Filter>src</Filter>
+    </None>
+    <None Include="src\synth_stereo_neon64_accurate.S">
+      <Filter>src</Filter>
+    </None>
+    <None Include="src\synth_stereo_neon64_float.S">
+      <Filter>src</Filter>
+    </None>
+    <None Include="src\synth_stereo_neon64_s32.S">
+      <Filter>src</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\compat.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\compat_str.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dct64.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dither.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\equalizer.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\feature.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\format.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\frame.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\getcpuflags_arm.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\icy.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\icy2utf8.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\id3.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\index.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\layer1.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\layer2.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\layer3.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lfs_alias.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libmpg123.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ntom.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\optimize.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\parse.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\readers.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stringbuf.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\synth.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\synth_8bit.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\synth_real.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\synth_s32.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tabinit.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\abi_align.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\compat.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\config.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\debug.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\decode.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dither.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dither_impl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fmt123.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\frame.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gapless.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\getbits.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\getcpuflags.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\huffman.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\icy.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\icy2utf8.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\id3.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\index.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\intsym.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\l2tables.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\l3_integer_tables.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\l12_integer_tables.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mangle.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mpeghead.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mpg123.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mpg123lib_intern.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\newhuffman.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\optimize.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\parse.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\reader.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sample.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\swap_bytes_impl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\synth.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\synth_8bit.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\synth_mono.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\synth_ntom.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\synths.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\true.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

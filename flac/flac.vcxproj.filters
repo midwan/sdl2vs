@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{63394d60-6e9f-404a-a463-2213dd363d9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{d5b67f49-26ab-4a57-bf3c-eee719987aac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\FLAC">
+      <UniqueIdentifier>{53c628f9-b663-4090-97e5-bc00ce784a80}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\FLAC\all.h">
+      <Filter>include\FLAC</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FLAC\assert.h">
+      <Filter>include\FLAC</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FLAC\callback.h">
+      <Filter>include\FLAC</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FLAC\export.h">
+      <Filter>include\FLAC</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FLAC\format.h">
+      <Filter>include\FLAC</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FLAC\metadata.h">
+      <Filter>include\FLAC</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FLAC\ordinals.h">
+      <Filter>include\FLAC</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FLAC\stream_decoder.h">
+      <Filter>include\FLAC</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FLAC\stream_encoder.h">
+      <Filter>include\FLAC</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\bitmath.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bitreader.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bitwriter.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpu.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crc.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fixed.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\float.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\format.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpc.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\md5.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\memory.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\metadata_iterators.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\metadata_object.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ogg_decoder_aspect.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ogg_encoder_aspect.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ogg_helper.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ogg_mapping.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stream_decoder.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stream_encoder.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stream_encoder_framing.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\window.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

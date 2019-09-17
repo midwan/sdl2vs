@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{3667b56b-cef6-44d9-a15c-a8eff4facc9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{84a299b9-9d9d-4181-a83a-b7c2615d3848}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\alpha_asm.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\attributes.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\config.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mmx.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mpeg2.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mpeg2convert.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tendra.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video_out.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vis.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mpeg2_internal.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vlc.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\alloc.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpu_accel.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpu_state.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\decode.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\header.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\idct.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\idct_alpha.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\idct_altivec.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\idct_mmx.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\motion_comp.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\motion_comp_alpha.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\motion_comp_altivec.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\motion_comp_arm.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\motion_comp_mmx.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\motion_comp_vis.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\slice.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\motion_comp_arm_s.S">
+      <Filter>src</Filter>
+    </None>
+  </ItemGroup>
+</Project>
