@@ -3,8 +3,12 @@ SDL2 Template Solution
 
 This solution demonstrates how to set up a basic SDL2 project for Android in Visual Studio 2017. The solution is explained in detail on [my blog](http://trederia.blogspot.com/2017/03/building-sdl2-for-android-with-visual.html).
 
+## Modifications 2019-09-17 (midwan
 
-## Modifications 2019-09-07
+- Upgraded target Android SDK to 28
+- Added more libraries in solution (FLAC, mpeg2, mpg123, ogg, xml2)
+
+## Modifications 2019-09-07 (midwan)
 
 - Upgraded SDL2 sources to the latest from Mercurial (>2.0.10)
 - Added SDL2-image
