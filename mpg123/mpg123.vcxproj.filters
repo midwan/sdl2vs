@@ -27,9 +27,6 @@
     <None Include="src\dct64_neon64_float.S">
       <Filter>src</Filter>
     </None>
-    <None Include="src\getcpuflags.S">
-      <Filter>src</Filter>
-    </None>
     <None Include="src\synth_arm.S">
       <Filter>src</Filter>
     </None>
@@ -108,9 +105,6 @@
       <Filter>src</Filter>
     </ClCompile>
     <ClCompile Include="src\frame.c">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="src\getcpuflags_arm.c">
       <Filter>src</Filter>
     </ClCompile>
     <ClCompile Include="src\icy.c">
@@ -203,9 +197,6 @@
       <Filter>src</Filter>
     </ClInclude>
     <ClInclude Include="src\getbits.h">
-      <Filter>src</Filter>
-    </ClInclude>
-    <ClInclude Include="src\getcpuflags.h">
       <Filter>src</Filter>
     </ClInclude>
     <ClInclude Include="src\huffman.h">

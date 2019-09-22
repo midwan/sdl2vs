@@ -109,6 +109,15 @@
     <ProjectReference Include="..\SDL2_image\SDL2_image.vcxproj" />
     <ProjectReference Include="..\SDL2_ttf\SDL2_ttf.vcxproj" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="app\build.gradle" />
+    <Content Include="build.gradle" />
+    <Content Include="gradlew.bat" />
+    <Content Include="settings.gradle" />
+  </ItemGroup>
+  <ItemGroup>
+    <AntProjectPropertiesFile Include="gradle\wrapper\gradle-wrapper.properties" />
+  </ItemGroup>
   <Import Project="$(AndroidTargetsPath)\Android.targets" />
   <ImportGroup Label="ExtensionTargets" />
 </Project>

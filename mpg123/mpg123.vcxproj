@@ -42,7 +42,6 @@
     <None Include="src\dct64_neon64.S" />
     <None Include="src\dct64_neon64_float.S" />
     <None Include="src\dct64_neon_float.S" />
-    <None Include="src\getcpuflags.S" />
     <None Include="src\synth_arm.S" />
     <None Include="src\synth_arm_accurate.S" />
     <None Include="src\synth_neon.S" />
@@ -71,7 +70,6 @@
     <ClCompile Include="src\feature.c" />
     <ClCompile Include="src\format.c" />
     <ClCompile Include="src\frame.c" />
-    <ClCompile Include="src\getcpuflags_arm.c" />
     <ClCompile Include="src\icy.c" />
     <ClCompile Include="src\icy2utf8.c" />
     <ClCompile Include="src\id3.c" />
@@ -104,7 +102,6 @@
     <ClInclude Include="src\frame.h" />
     <ClInclude Include="src\gapless.h" />
     <ClInclude Include="src\getbits.h" />
-    <ClInclude Include="src\getcpuflags.h" />
     <ClInclude Include="src\huffman.h" />
     <ClInclude Include="src\icy.h" />
     <ClInclude Include="src\icy2utf8.h" />
@@ -246,7 +243,7 @@
       </PrecompiledHeaderFile>
       <AdditionalIncludeDirectories>$(Sysroot)\usr\include;$(StlIncludeDirectories)%(AdditionalIncludeDirectories);src</AdditionalIncludeDirectories>
       <EnableNeonCodegen>true</EnableNeonCodegen>
-      <PreprocessorDefinitions>__ANDROID_API__=$(AndroidAPILevelNumber);linux;FT2_BUILD_LIBRARY=1;PHYSFS_NO_CDROM_SUPPORT=1;AL_ALEXT_PROTOTYPES=1;HAVE_GCC_DESTRUCTOR=1;REAL_IS_FLOAT;OPT_NEON</PreprocessorDefinitions>
+      <PreprocessorDefinitions>__ANDROID_API__=$(AndroidAPILevelNumber);linux;FT2_BUILD_LIBRARY=1;PHYSFS_NO_CDROM_SUPPORT=1;AL_ALEXT_PROTOTYPES=1;HAVE_GCC_DESTRUCTOR=1;REAL_IS_FLOAT;OPT_GENERIC</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories);$(ToolchainPrebuiltPath)\lib\gcc\$(ToolchainName)\$(ToolchainFullVersionName)\$(PlatformShortName);$(StlLibraryPath);$(SolutionDir)$(Platform)\$(Configuration)</AdditionalLibraryDirectories>
@@ -260,7 +257,7 @@
       </PrecompiledHeaderFile>
       <AdditionalIncludeDirectories>$(Sysroot)\usr\include;$(StlIncludeDirectories)%(AdditionalIncludeDirectories);src</AdditionalIncludeDirectories>
       <EnableNeonCodegen>true</EnableNeonCodegen>
-      <PreprocessorDefinitions>__ANDROID_API__=$(AndroidAPILevelNumber);linux;FT2_BUILD_LIBRARY=1;PHYSFS_NO_CDROM_SUPPORT=1;AL_ALEXT_PROTOTYPES=1;HAVE_GCC_DESTRUCTOR=1;REAL_IS_FLOAT;OPT_NEON</PreprocessorDefinitions>
+      <PreprocessorDefinitions>__ANDROID_API__=$(AndroidAPILevelNumber);linux;FT2_BUILD_LIBRARY=1;PHYSFS_NO_CDROM_SUPPORT=1;AL_ALEXT_PROTOTYPES=1;HAVE_GCC_DESTRUCTOR=1;REAL_IS_FLOAT;OPT_GENERIC</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories);$(ToolchainPrebuiltPath)\lib\gcc\$(ToolchainName)\$(ToolchainFullVersionName)\$(PlatformShortName);$(StlLibraryPath);$(SolutionDir)$(Platform)\$(Configuration)</AdditionalLibraryDirectories>
