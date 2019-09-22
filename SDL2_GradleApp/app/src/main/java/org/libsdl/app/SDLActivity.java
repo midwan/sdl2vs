@@ -150,6 +150,7 @@ public class SDLActivity extends Activity implements View.OnSystemUiVisibilityCh
 			"xml2",
 			"flac",
 			"mpeg2",
+			"mpg123",
             "main"
         };
     }
