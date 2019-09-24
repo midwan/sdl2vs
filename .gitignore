@@ -6,3 +6,4 @@ SDL2_GradleApp/app/build/
 main/ARM64/
 ARM64/
 SDL2_GradleApp/app/src/main/jniLibs/
+SDL2_GradleApp/.gradle/
