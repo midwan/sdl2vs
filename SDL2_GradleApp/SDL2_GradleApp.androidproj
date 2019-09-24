@@ -47,11 +47,11 @@
   <Import Project="$(AndroidTargetsPath)\Android.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <AndroidAPILevel>android-26</AndroidAPILevel>
+    <AndroidAPILevel>android-28</AndroidAPILevel>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <AndroidAPILevel>android-26</AndroidAPILevel>
+    <AndroidAPILevel>android-28</AndroidAPILevel>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
@@ -104,13 +104,19 @@
     <JavaCompile Include="app\src\main\java\org\libsdl\app\SDLControllerManager.java" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\flac\flac.vcxproj" />
     <ProjectReference Include="..\main\main.vcxproj" />
+    <ProjectReference Include="..\mpeg2\mpeg2.vcxproj" />
+    <ProjectReference Include="..\mpg123\mpg123.vcxproj" />
+    <ProjectReference Include="..\ogg\ogg.vcxproj" />
     <ProjectReference Include="..\SDL2\SDL2.vcxproj" />
     <ProjectReference Include="..\SDL2_image\SDL2_image.vcxproj" />
     <ProjectReference Include="..\SDL2_ttf\SDL2_ttf.vcxproj" />
+    <ProjectReference Include="..\xml2\xml2.vcxproj" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\build.gradle" />
+    <Content Include="app\src\main\AndroidManifest.xml" />
     <Content Include="build.gradle" />
     <Content Include="gradlew.bat" />
     <Content Include="settings.gradle" />
